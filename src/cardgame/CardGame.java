@@ -61,7 +61,7 @@ public class CardGame {
         printInfo(match);
     }
 
-
+        //modified the printInfo()
         public static void printInfo(boolean match) {
             
             if(match == true){
@@ -71,6 +71,8 @@ public class CardGame {
             else {
                 System.out.println("No match");
             }
+            
+            System.out.println("My name is Arshpartap Singh. I am currently enrolled in Computer Programming diploma at Sheridan College.");
         }
 
     }
